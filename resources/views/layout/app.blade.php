@@ -14,6 +14,16 @@
 
     </head>
     <body>
+    <div class="container">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="{{  }}">球隊</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">球員</a>
+            </li>
+        </ul>
         @yield('body')
+    </div>
     </body>
 </html>
